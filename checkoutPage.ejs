@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8" />
+	<title>Checkout Page</title>
+    
+    <style>
+        html {
+            font-size: 20px; 
+            font-family: 'Georgia', serif;
+        }
+
+        body {
+            background-color: #f7e6ec; 
+        }
+
+        h1 {
+            color: #ba0d48;
+        }
+
+        h2 {
+            color: red; 
+        }
+
+        #submitButton {
+            background-color: #fac8d9;
+            font-style: bold;
+            border: 4px solid #ba0d48; 
+            font-size: 18px;
+        }
+    </style>
+
+</head>
+
+<body>
+	<h1>Checkout Cart</h1>
+    <form action="/postCheckout" method="post">
+        <input type="submit" value="Complete My Checkout" id="submitButton">
+    </form>
+    <hr>
+    <p>
+        <a href = "/">HOME</a>
+    </p>
+</body>
+
+</html>
